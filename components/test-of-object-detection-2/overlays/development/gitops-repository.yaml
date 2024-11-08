@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-of-object-detection-2-gitops-repository
+spec:
+  url: https://github.com/gabemontero-appstudio-test-org/test-detr-2-gitops
